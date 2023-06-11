@@ -1,3 +1,3 @@
 This application serves the extraction of course information (from module descriptions a pdf file), the identification of the most important terms, and the link of these terms to the respective entries of the ESCO nomenclature.
-So, a pdf file is converted to text and using stop word analysis, stemming and lemmatization the text is cleaned. To indentify the most importatnt term, Term Frequency-Inverse Document(TFIDF) algorithm is used. 
+So, a pdf file is converted to text and then using stop word analysis, stemming and lemmatization the text is cleaned. To indentify the most importatnt terms, Term Frequency-Inverse Document(TFIDF) algorithm is used. 
 Now, that we have identified the important key words in each module(subject), this term are then mapped to ESCO nomenclature(European Skills, Competences, and Occupations)  to find occupations and skills related to each module. 
